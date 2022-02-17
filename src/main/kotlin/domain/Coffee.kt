@@ -6,6 +6,6 @@ class Coffee(id: UUID, val items: List<Item>? = emptyList(), name: String, val b
     override fun totalPrice(): Double = (items?.sumOf { it.price } ?: 0.0) + basePrice
 
     fun greetingTest() {
-        println("I'm a coffee :) ")
+        println("I'm a coffee :) oh yeah ")
     }
 }
